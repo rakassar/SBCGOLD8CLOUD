@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_014_Case_ApplicationBeyondTAT">
+        <methods>
+          <include name="SC_014_TC_001"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_014_Case_ApplicationBeyondTAT -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_005_Lead_DocsCollectedSelfEmployed">
+        <methods>
+          <include name="SC_005_TC_007"/>
+          <include name="SC_005_TC_009"/>
+          <include name="SC_005_TC_006"/>
+          <include name="SC_005_TC_008"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_005_Lead_DocsCollectedSelfEmployed -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_018_Case_ContactInformation">
+        <methods>
+          <include name="SC_018_TC_001"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_018_Case_ContactInformation -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_012_Case_AccountSpecialCondtion">
+        <methods>
+          <include name="SC_012_TC_001"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_012_Case_AccountSpecialCondtion -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_021_Lead_NTBJointEmployed">
+        <methods>
+          <include name="SC_021_TC_009"/>
+          <include name="SC_021_TC_010"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_021_Lead_NTBJointEmployed -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_028_Lead_NTBTrustIndi">
+        <methods>
+          <include name="SC_028_TC_007"/>
+          <include name="SC_028_TC_009"/>
+          <include name="SC_028_TC_008"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_028_Lead_NTBTrustIndi -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_019_Lead_BCMJourneyNewAccountOpen">
+        <methods>
+          <include name="SC_019_TC_007"/>
+          <include name="SC_019_TC_008"/>
+          <include name="SC_019_TC_009"/>
+          <include name="SC_019_TC_002"/>
+          <include name="SC_019_TC_003"/>
+          <include name="SC_019_TC_004"/>
+          <include name="SC_019_TC_005"/>
+          <include name="SC_019_TC_010"/>
+          <include name="SC_019_TC_011"/>
+          <include name="SC_019_TC_001"/>
+          <include name="SC_019_TC_006"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_019_Lead_BCMJourneyNewAccountOpen -->
+      <class name="BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_020_Lead_BCMJourneyOnly">
+        <methods>
+          <include name="SC_020_TC_003"/>
+          <include name="SC_020_TC_004"/>
+          <include name="SC_020_TC_001"/>
+          <include name="SC_020_TC_002"/>
+        </methods>
+      </class> <!-- BUSINESSNEXT.SBCGOLD8.TESTSCENARIOS.SC_020_Lead_BCMJourneyOnly -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
