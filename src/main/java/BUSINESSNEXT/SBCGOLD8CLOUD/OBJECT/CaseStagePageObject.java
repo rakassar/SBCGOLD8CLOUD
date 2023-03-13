@@ -85,7 +85,7 @@ public static List<WebElement> clk_caseID ;
 @FindBy(css=".react-grid-Cell.react-grid-Cell--frozen.rdg-last--frozen")
 public static WebElement Slk_caseID ;
 
-@FindBy(xpath="//label[@for='checkbox0']")
+@FindBy(css="label[for='acid_checkbox_gridcontrol1_0']")
 public static WebElement clk_selectcase ;
 
 @FindBy(xpath="//label[@for='checkbox1']")

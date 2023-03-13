@@ -73,7 +73,7 @@ public static WebElement clk_GoToCustomer360 ;
 	     @FindBy(xpath="//a[@class='filterGroup__button acid-btn acid-btn--outline-brand']")
 	     public static WebElement clk_arrorw ;
 
-	     @FindBy(xpath="//label[@for='checkbox0']")
+	     @FindBy(css="label[for='acid_checkbox_gridcontrol1_0']")
 	     public static WebElement clk_selectlead ;
 
 	     @FindBy(css="[data-autoid='LeadID_0']")
