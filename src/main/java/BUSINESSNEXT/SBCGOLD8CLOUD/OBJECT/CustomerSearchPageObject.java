@@ -14,7 +14,7 @@ public CustomerSearchPageObject (WebDriver driver)
 
 }
 
-@FindBy(xpath="//*[@id=\"object-action-button\"]/div/a[1]")
+@FindBy(xpath="//span[normalize-space()='Next']")
 public static WebElement clk_salesonbaordingjourneynext;
 
 @FindBy(css="a[title='Next'] span")

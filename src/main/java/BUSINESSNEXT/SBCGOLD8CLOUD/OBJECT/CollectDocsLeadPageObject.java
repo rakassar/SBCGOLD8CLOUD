@@ -292,17 +292,19 @@ public static WebElement btn_clickSave;
 @FindBy(name="qqfile")
 public static WebElement ent_PrAttachFile;
 
+
 //Communication Channel Preference
-@FindBy(xpath="(//a[@data-autoid = '1'])[1]")
+//@FindBy(xpath="(//a[@data-autoid = '1'])[1]")
+@FindBy(xpath="//a[contains(@data-autoid,'cust_2959_1')]")
 public static WebElement btn_PhoneCall_NO;
 
-@FindBy(xpath="(//a[@data-autoid = '1'])[2]")
+@FindBy(xpath="//a[contains(@data-autoid,'cust_2960_1')]")
 public static WebElement btn_SMS_NO;
 
-@FindBy(xpath="(//a[@data-autoid = '1'])[3]")
+@FindBy(xpath="//a[contains(@data-autoid,'cust_2962_1')]")
 public static WebElement btn_Viber_NO;
 
-@FindBy(xpath="(//a[@data-autoid = '1'])[4]")
+@FindBy(xpath="//a[contains(@data-autoid,'cust_2961_1')]")
 public static WebElement btn_Email_NO;
 
 

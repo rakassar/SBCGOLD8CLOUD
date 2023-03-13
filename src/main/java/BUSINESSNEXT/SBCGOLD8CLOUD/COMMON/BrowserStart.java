@@ -2,6 +2,7 @@ package BUSINESSNEXT.SBCGOLD8CLOUD.COMMON;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -25,6 +26,11 @@ public class BrowserStart implements Properties{
 	option.addArguments("--start-maximized");
 	driver.get(URL);
 	driver.manage().window().maximize();
+	
+	
+	driver.findElement(By.id("details-button")).click();;
+	driver.findElement(By.id("proceed-link")).click();;
+	
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	new LoginPageObject(driver);
 	new HomePageObject(driver);

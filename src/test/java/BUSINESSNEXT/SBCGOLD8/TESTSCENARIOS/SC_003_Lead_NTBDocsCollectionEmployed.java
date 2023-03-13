@@ -181,10 +181,10 @@ public class SC_003_Lead_NTBDocsCollectionEmployed extends HomePageMethod
         CLDLPM.ChannelPreference_SMS();
         Thread.sleep(500);
         scrolldown();
-         CLDLPM.ChannelPreference_Viber();
-         Thread.sleep(500);
-          CLDLPM.ChannelPreference_Email();
-          screen.ScreenshotMethod("SC_003_NTBDocsCollectionEmployed-");
+        CLDLPM.ChannelPreference_Viber();
+        Thread.sleep(500);
+        CLDLPM.ChannelPreference_Email();
+        screen.ScreenshotMethod("SC_003_NTBDocsCollectionEmployed-");
 
           
         scrollToTop();
